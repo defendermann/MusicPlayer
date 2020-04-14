@@ -39,3 +39,7 @@ jobs:
         with:
           name: app
           path: app/build/outputs/apk/debug/app-debug.apk
+          
+       - name: Telegram Notify
+  uses: appleboy/telegram-action@0.0.3   
+  
